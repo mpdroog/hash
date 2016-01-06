@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-// https://github.com/itshosted/diablo/blob/master/lib/hashfeed.c#L148
+// https://github.com/jpmens/diablo/blob/master/lib/hashfeed.c#L148
 func TestHash(t *testing.T) {
 	matches := map[int]uint32{
 		0: 0x49367f83,
@@ -30,7 +30,7 @@ func TestHash(t *testing.T) {
 	}
 }
 
-// https://github.com/itshosted/diablo/blob/master/lib/hashfeed.c#L226
+// https://github.com/jpmens/diablo/blob/master/lib/hashfeed.c#L223
 func TestMatch(t *testing.T) {
 	feed := "1-120/360:8"
 	valid := []string{
