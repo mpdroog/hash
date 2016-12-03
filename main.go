@@ -64,7 +64,7 @@ func main() {
 		msgid string
 		hashfeed string
 	)
-	flag.BoolVar(&verbose, "v", true, "Verbose")
+	flag.BoolVar(&verbose, "v", false, "Verbose")
 	flag.StringVar(&msgid, "msgid", "<>", "Msgid")
 	flag.StringVar(&hashfeed, "hashfeed", "1-120/360:8", "Diablo Hashfeed from dserver.hosts/dnewsfeeds")
 	flag.Parse()
